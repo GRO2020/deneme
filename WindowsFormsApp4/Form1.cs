@@ -31,6 +31,7 @@ namespace WindowsFormsApp4
         private void button1_Click(object sender, EventArgs e)
         {
             string kulAd = "oguz", sif = "1234";
+            // buraya karşılaştırma satırı ekledim
             if (textBox1.Text=="oguz"&&textBox2.Text=="1234")
             {
                 Form2 frm = new Form2();
